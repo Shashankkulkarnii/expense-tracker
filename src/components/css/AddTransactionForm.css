@@ -1,0 +1,37 @@
+.form-field-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.transaction-form{
+    margin-top: 15px;
+}
+
+.field-label{
+    align-self: flex-start;
+    font-weight: 500;
+} div {
+    align-self: flex-start;
+    font-weight: 400;
+}
+
+.errors{
+    height: 20px;
+    color: red;
+}
+
+.form-field-container input{
+    height: 30px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.submit-button{
+    padding: 10px 0;
+    background:rgb(106, 0, 192);
+    color: white;
+    min-width: 100%;
+}
+

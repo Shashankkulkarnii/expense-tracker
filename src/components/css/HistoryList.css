@@ -1,0 +1,21 @@
+.list-container {
+    display: inline;
+    list-style: none;
+}
+.list-content{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    border: 0 solid grey;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 40px;
+    padding: 0 10px;
+}
+.green-indicator{
+    border-right: 5px solid green;
+}
+.red-indicator{
+    border-right: 5px solid red;
+}

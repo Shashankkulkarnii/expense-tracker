@@ -1,0 +1,24 @@
+.inc-exp-container{
+    display: flex;
+    justify-content: space-evenly;
+    border: outset;
+    height: 100px;
+}
+
+.amount-container{
+    padding: 20px;
+}
+
+.divider{
+    border-left: 3px solid grey;;
+    height: 80px;
+    margin: 10px 0;
+}
+
+.income{
+    color: green
+}
+
+.expense{
+    color: red;
+}
